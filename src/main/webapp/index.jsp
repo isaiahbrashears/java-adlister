@@ -19,6 +19,7 @@
         <h5>single letter variable names are good</h5>
     </c:if>
 
+    <h1>your name is ${user}</h1>
 
 
     <%@include file="partials/footer.html"%>

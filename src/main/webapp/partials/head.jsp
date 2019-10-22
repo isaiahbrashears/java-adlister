@@ -8,13 +8,18 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 
 <head>
-    <title>Title</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <style>
         body{
             margin: 0 auto;
             text-align: center;
             background-color: gray;
+        }
+
+        button{
+            margin-top: .5em;
         }
 
         footer div{
@@ -33,6 +38,16 @@
 
         nav ul li{
             margin: 1em;
+
+        }
+
+        nav ul li a{
+            color: black;
+        }
+
+        nav ul li a:hover{
+
+            color: #222;
         }
 
     </style>
