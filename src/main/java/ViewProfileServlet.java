@@ -10,7 +10,7 @@ public class ViewProfileServlet extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 //        request.getRequestDispatcher("/profile.jsp").forward(request, response);
 
-        if (request.getSession().getAttribute("username") == null ){
+        if (request.getSession().getAttribute("user") == null ){
             response.sendRedirect("/login");
         }else {
             request.getRequestDispatcher("/profile.jsp").forward(request, response);
